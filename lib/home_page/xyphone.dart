@@ -12,13 +12,15 @@ class Muzyka extends StatelessWidget {
         backgroundColor: Colors.black,
         title: Center(
           child: const Text(
-            ' Xylophone',
+            ' Xylophone App',
             style: TextStyle(fontSize: 27, color: Colors.amber),
           ),
         ),
       ),
       body: Column(
         children: [
+          buildMethod(player),
+          buildMethod(player),
           buildMethod(player),
           Expanded(
             child: Container(
